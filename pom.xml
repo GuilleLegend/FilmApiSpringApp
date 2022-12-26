@@ -12,7 +12,7 @@
 	<artifactId>demo</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>FilmSpringApp</name>
-	<description>Application that uses an API that allows consulting movies by name through HTTP/GET calls.</description>
+	<description>Aplicación que utiliza una API que permite consultar películas por nombre a través de llamadas HTTP/GET.</description>
 	<properties>
 		<java.version>19</java.version>
 	</properties>
