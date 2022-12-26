@@ -1,9 +1,11 @@
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.CrossOrigin;
+import org.springframework.cache.annotation.Cacheable;
 import org.springframework.web.client.RestTemplate;
 
 @CrossOrigin
+@Cacheable("peliculas")
 @RestController
 public class RestController {
 
